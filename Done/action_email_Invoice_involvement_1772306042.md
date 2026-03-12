@@ -1,0 +1,25 @@
+---
+type: "email"
+from: "Fatima Anshra <anshraf735@gmail.com>"
+subject: "Invoice involvement"
+date: "Sun, 1 Mar 2026 00:11:24 +0500"
+message_id: "7014"
+received_at: "2026-03-01 00:14:02"
+sensitive: "true"
+status: "pending"
+---
+
+# Email: Invoice involvement
+
+## Details
+- **From:** Fatima Anshra <anshraf735@gmail.com>
+- **Date:** Sun, 1 Mar 2026 00:11:24 +0500
+- **Sensitive:** YES — route to /Pending_Approval/
+
+## Preview
+Hello it's very urgent sent me my invoice or related info
+
+
+## Action Required
+Review this email and take appropriate action. Move to /Done when complete.
+

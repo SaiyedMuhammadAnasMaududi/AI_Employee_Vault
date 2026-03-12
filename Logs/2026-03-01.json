@@ -1,0 +1,607 @@
+[
+  {
+    "timestamp": "2026-03-01 16:39:53",
+    "actor": "odoo_mcp",
+    "action": "get_balance",
+    "params": {},
+    "result": "dry-run",
+    "detail": "{'status': 'dry-run', 'outstanding_receivables': 0.0, 'unpaid_invoices': 0, 'currency': 'USD'}"
+  },
+  {
+    "timestamp": "2026-03-01 16:40:03",
+    "actor": "meta_social_mcp",
+    "action": "post_facebook",
+    "mode": "dry-run",
+    "params": {
+      "platform": "facebook",
+      "message": "Testing Gold Tier Meta integration! #AI #Automation...",
+      "image_url": ""
+    },
+    "result": "dry-run",
+    "detail": "Testing Gold Tier Meta integration! #AI #Automation"
+  },
+  {
+    "timestamp": "2026-03-01 16:41:27",
+    "actor": "odoo_mcp",
+    "action": "create_invoice",
+    "params": {
+      "partner": "Test Client",
+      "amount": 30.0,
+      "description": "Consulting"
+    },
+    "result": "dry-run",
+    "detail": "{'status': 'dry-run', 'invoice_id': 0, 'partner': 'Test Client', 'amount': 30.0, 'description': 'Consulting'}"
+  },
+  {
+    "timestamp": "2026-03-01 16:41:29",
+    "actor": "odoo_mcp",
+    "action": "create_invoice",
+    "params": {
+      "partner": "Test Client",
+      "amount": 150.0,
+      "description": "Big Project"
+    },
+    "result": "hitl_pending",
+    "detail": "amount $150.0 > limit"
+  },
+  {
+    "timestamp": "2026-03-01 16:41:55",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 16:47:04",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 16:52:13",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 16:57:22",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 17:00:27",
+    "actor": "odoo_mcp",
+    "action": "create_invoice",
+    "params": {
+      "partner": "Test Client",
+      "amount": 150.0,
+      "description": "Gold Tier Validation Test"
+    },
+    "result": "hitl_pending",
+    "detail": "amount $150.0 > limit"
+  },
+  {
+    "timestamp": "2026-03-01 17:02:32",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 17:07:40",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 17:11:48",
+    "actor": "odoo_mcp",
+    "action": "create_invoice",
+    "params": {
+      "partner": "Test Client",
+      "amount": 30.0,
+      "description": "Small Task"
+    },
+    "result": "dry-run",
+    "detail": "{'status': 'dry-run', 'invoice_id': 0, 'partner': 'Test Client', 'amount': 30.0, 'description': 'Small Task'}"
+  },
+  {
+    "timestamp": "2026-03-01 17:11:59",
+    "actor": "meta_social_mcp",
+    "action": "post_facebook",
+    "mode": "dry-run",
+    "params": {
+      "platform": "facebook",
+      "message": "Gold Tier Test: AI automation is transforming how businesses operate. #AI #Automation...",
+      "image_url": ""
+    },
+    "result": "dry-run",
+    "detail": "Gold Tier Test: AI automation is transforming how businesses operate. #AI #Automation"
+  },
+  {
+    "timestamp": "2026-03-01 17:11:59",
+    "actor": "meta_social_mcp",
+    "action": "post_instagram",
+    "mode": "dry-run",
+    "params": {
+      "platform": "instagram",
+      "message": "Building the future with AI. One process at a time. #Tech #Innovation...",
+      "image_url": ""
+    },
+    "result": "dry-run",
+    "detail": "Building the future with AI. One process at a time. #Tech #Innovation"
+  },
+  {
+    "timestamp": "2026-03-01 17:12:49",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 17:13:49",
+    "actor": "meta_social_mcp",
+    "action": "generate_summary",
+    "mode": "dry-run",
+    "params": {
+      "period": "week"
+    },
+    "result": "success",
+    "detail": "3 entries"
+  },
+  {
+    "timestamp": "2026-03-01 17:14:11",
+    "actor": "odoo_mcp",
+    "action": "get_balance",
+    "params": {},
+    "result": "dry-run",
+    "detail": "{'status': 'dry-run', 'outstanding_receivables': 0.0, 'unpaid_invoices': 0, 'currency': 'USD'}"
+  },
+  {
+    "timestamp": "2026-03-01 17:14:12",
+    "actor": "meta_social_mcp",
+    "action": "generate_summary",
+    "mode": "dry-run",
+    "params": {
+      "period": "week"
+    },
+    "result": "success",
+    "detail": "4 entries"
+  },
+  {
+    "timestamp": "2026-03-01 17:17:59",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 17:23:10",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 17:28:20",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 17:33:30",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 17:38:40",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 17:43:51",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 17:49:02",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 17:54:14",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 17:59:25",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 18:04:36",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 18:09:48",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 18:15:00",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 18:20:13",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 18:25:25",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 18:30:38",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 18:35:51",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 18:41:04",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 18:46:17",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 18:51:31",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 18:56:44",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 19:01:58",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 19:07:12",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 19:12:26",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 19:17:37",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 19:22:50",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 19:28:04",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 19:33:18",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 19:38:33",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 19:43:47",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 19:49:02",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 19:54:18",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 19:59:33",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 20:04:49",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 20:10:05",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 20:15:21",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 20:20:37",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 20:25:53",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 20:31:10",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 20:36:27",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 20:41:43",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 20:47:16",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 20:52:22",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 20:57:24",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 21:02:24",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 21:07:25",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 21:12:25",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 21:17:25",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 21:22:25",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 21:27:26",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 21:32:26",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 21:37:26",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 21:42:26",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 21:47:27",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 21:52:27",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 21:57:27",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 22:02:27",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 22:07:28",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 22:12:28",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 22:17:28",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 22:22:28",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 22:27:29",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 22:32:29",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 22:37:29",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 22:42:29",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 22:47:30",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 22:52:30",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 22:57:31",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 23:02:31",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 23:07:34",
+    "actor": "watchdog",
+    "action": "restart",
+    "detail": "auto-restarted whatsapp"
+  },
+  {
+    "timestamp": "2026-03-01 23:07:34",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"stopped\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 23:12:44",
+    "actor": "watchdog",
+    "action": "recovered",
+    "detail": "whatsapp back online"
+  },
+  {
+    "timestamp": "2026-03-01 23:12:44",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-01 23:17:54",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  }
+]

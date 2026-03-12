@@ -1,0 +1,386 @@
+[
+  {
+    "timestamp": "2026-03-02 00:17:09",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-02 00:22:23",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-02 00:27:36",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-02 00:31:03",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"online\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-02 00:36:16",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"stopped\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-02 00:41:29",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"stopped\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-02 00:46:43",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"online\", \"gmail\": \"online\", \"ralph\": \"online\", \"whatsapp\": \"stopped\", \"linkedin\": \"online\"}"
+  },
+  {
+    "timestamp": "2026-03-02 01:22:45",
+    "actor": "odoo_mcp",
+    "action": "create_invoice",
+    "params": {
+      "partner": "Test Client",
+      "amount": 150.0,
+      "description": "Big Project"
+    },
+    "result": "hitl_pending",
+    "detail": "amount $150.0 > limit"
+  },
+  {
+    "timestamp": "2026-03-02 01:22:45",
+    "actor": "odoo_mcp",
+    "action": "create_invoice",
+    "params": {
+      "partner": "Test Client",
+      "amount": 150.0,
+      "description": "Gold Tier Validation Test"
+    },
+    "result": "hitl_pending",
+    "detail": "amount $150.0 > limit"
+  },
+  {
+    "timestamp": "2026-03-02 01:24:18",
+    "actor": "odoo_mcp",
+    "action": "search_partner",
+    "params": {
+      "name": "Test"
+    },
+    "result": "error",
+    "detail": "Odoo auth failed \u2014 check ODOO_USER (admin) and ODOO_API_KEY"
+  },
+  {
+    "timestamp": "2026-03-02 01:26:32",
+    "actor": "odoo_mcp",
+    "action": "search_partner",
+    "params": {
+      "name": "Test"
+    },
+    "result": "error",
+    "detail": "Odoo auth failed \u2014 check ODOO_USER (admin) and ODOO_API_KEY"
+  },
+  {
+    "timestamp": "2026-03-02 01:32:04",
+    "actor": "odoo_mcp",
+    "action": "search_partner",
+    "params": {
+      "name": "Test"
+    },
+    "result": "success",
+    "detail": "1 found"
+  },
+  {
+    "timestamp": "2026-03-02 01:50:24",
+    "actor": "watchdog",
+    "action": "restart",
+    "detail": "auto-restarted ralph"
+  },
+  {
+    "timestamp": "2026-03-02 01:50:24",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"stopped\", \"gmail\": \"stopped\", \"ralph\": \"errored\", \"whatsapp\": \"stopped\", \"linkedin\": \"stopped\"}"
+  },
+  {
+    "timestamp": "2026-03-02 01:55:40",
+    "actor": "watchdog",
+    "action": "recovered",
+    "detail": "ralph back online"
+  },
+  {
+    "timestamp": "2026-03-02 01:55:40",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"stopped\", \"gmail\": \"stopped\", \"ralph\": \"online\", \"whatsapp\": \"stopped\", \"linkedin\": \"stopped\"}"
+  },
+  {
+    "timestamp": "2026-03-02 02:00:56",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"stopped\", \"gmail\": \"stopped\", \"ralph\": \"online\", \"whatsapp\": \"stopped\", \"linkedin\": \"stopped\"}"
+  },
+  {
+    "timestamp": "2026-03-02 02:06:13",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"stopped\", \"gmail\": \"stopped\", \"ralph\": \"online\", \"whatsapp\": \"stopped\", \"linkedin\": \"stopped\"}"
+  },
+  {
+    "timestamp": "2026-03-02 02:11:30",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"stopped\", \"gmail\": \"stopped\", \"ralph\": \"online\", \"whatsapp\": \"stopped\", \"linkedin\": \"stopped\"}"
+  },
+  {
+    "timestamp": "2026-03-02 02:16:47",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"stopped\", \"gmail\": \"stopped\", \"ralph\": \"online\", \"whatsapp\": \"stopped\", \"linkedin\": \"stopped\"}"
+  },
+  {
+    "timestamp": "2026-03-02 02:22:04",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"stopped\", \"gmail\": \"stopped\", \"ralph\": \"online\", \"whatsapp\": \"stopped\", \"linkedin\": \"stopped\"}"
+  },
+  {
+    "timestamp": "2026-03-02 02:27:22",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"stopped\", \"gmail\": \"stopped\", \"ralph\": \"online\", \"whatsapp\": \"stopped\", \"linkedin\": \"stopped\"}"
+  },
+  {
+    "timestamp": "2026-03-02 02:32:40",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"stopped\", \"gmail\": \"stopped\", \"ralph\": \"online\", \"whatsapp\": \"stopped\", \"linkedin\": \"stopped\"}"
+  },
+  {
+    "timestamp": "2026-03-02 02:36:08",
+    "actor": "odoo_mcp",
+    "action": "create_invoice",
+    "params": {
+      "partner": "Test Client",
+      "amount": 150.0,
+      "description": "Gold Tier Validation Test"
+    },
+    "result": "hitl_pending",
+    "detail": "amount $150.0 > limit"
+  },
+  {
+    "timestamp": "2026-03-02 02:36:10",
+    "actor": "odoo_mcp",
+    "action": "create_invoice",
+    "params": {
+      "partner": "Test Client",
+      "amount": 150.0,
+      "description": "Big Project"
+    },
+    "result": "hitl_pending",
+    "detail": "amount $150.0 > limit"
+  },
+  {
+    "timestamp": "2026-03-02 02:37:57",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"stopped\", \"gmail\": \"stopped\", \"ralph\": \"online\", \"whatsapp\": \"stopped\", \"linkedin\": \"stopped\"}"
+  },
+  {
+    "timestamp": "2026-03-02 02:38:37",
+    "actor": "odoo_mcp",
+    "action": "create_invoice",
+    "params": {
+      "partner": "Test Client",
+      "amount": 150.0,
+      "description": "Gold Tier Validation Test"
+    },
+    "result": "error",
+    "detail": "Partner not found: Test Client"
+  },
+  {
+    "timestamp": "2026-03-02 02:38:39",
+    "actor": "odoo_mcp",
+    "action": "create_invoice",
+    "params": {
+      "partner": "Test Client",
+      "amount": 150.0,
+      "description": "Big Project"
+    },
+    "result": "error",
+    "detail": "Partner not found: Test Client"
+  },
+  {
+    "timestamp": "2026-03-02 02:39:32",
+    "actor": "odoo_mcp",
+    "action": "search_partner",
+    "params": {
+      "name": "test"
+    },
+    "result": "success",
+    "detail": "1 found"
+  },
+  {
+    "timestamp": "2026-03-02 02:39:46",
+    "actor": "odoo_mcp",
+    "action": "create_invoice",
+    "params": {
+      "partner": "testclient",
+      "amount": 150.0,
+      "description": "Gold Tier Validation Test"
+    },
+    "result": "success",
+    "detail": "invoice_id=3"
+  },
+  {
+    "timestamp": "2026-03-02 02:43:15",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"stopped\", \"gmail\": \"stopped\", \"ralph\": \"online\", \"whatsapp\": \"stopped\", \"linkedin\": \"stopped\"}"
+  },
+  {
+    "timestamp": "2026-03-02 02:48:34",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"stopped\", \"gmail\": \"stopped\", \"ralph\": \"online\", \"whatsapp\": \"stopped\", \"linkedin\": \"stopped\"}"
+  },
+  {
+    "timestamp": "2026-03-02 02:53:52",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"stopped\", \"gmail\": \"stopped\", \"ralph\": \"online\", \"whatsapp\": \"stopped\", \"linkedin\": \"stopped\"}"
+  },
+  {
+    "timestamp": "2026-03-02 02:54:27",
+    "actor": "odoo_mcp",
+    "action": "create_invoice",
+    "params": {
+      "partner": "testclient",
+      "amount": 1500.0,
+      "description": "Service Fee - Gold Tier Validation"
+    },
+    "result": "success",
+    "detail": "invoice_id=4"
+  },
+  {
+    "timestamp": "2026-03-02 02:55:29",
+    "actor": "meta_social_mcp",
+    "action": "post_facebook",
+    "mode": "dry-run",
+    "params": {
+      "platform": "facebook",
+      "message": "New service launch! AI Employee automation services now available. Contact us for exclusive deals an...",
+      "image_url": ""
+    },
+    "result": "dry-run",
+    "detail": "New service launch! AI Employee automation services now available. Contact us for exclusive deals and a free consultation. #AI #Automation #Business"
+  },
+  {
+    "timestamp": "2026-03-02 02:56:12",
+    "actor": "odoo_mcp",
+    "action": "get_balance",
+    "params": {},
+    "result": "success",
+    "detail": "{'status': 'success', 'outstanding_receivables': 5719.5, 'unpaid_invoices': 4, 'currency': 'USD'}"
+  },
+  {
+    "timestamp": "2026-03-02 02:56:13",
+    "actor": "meta_social_mcp",
+    "action": "generate_summary",
+    "mode": "dry-run",
+    "params": {
+      "period": "week"
+    },
+    "result": "success",
+    "detail": "6 entries"
+  },
+  {
+    "timestamp": "2026-03-02 02:57:15",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"stopped\", \"gmail\": \"stopped\", \"ralph\": \"online\", \"whatsapp\": \"stopped\", \"linkedin\": \"stopped\"}"
+  },
+  {
+    "timestamp": "2026-03-02 03:02:28",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"stopped\", \"gmail\": \"stopped\", \"ralph\": \"online\", \"whatsapp\": \"stopped\", \"linkedin\": \"stopped\"}"
+  },
+  {
+    "timestamp": "2026-03-02 03:07:42",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"stopped\", \"gmail\": \"stopped\", \"ralph\": \"online\", \"whatsapp\": \"stopped\", \"linkedin\": \"stopped\"}"
+  },
+  {
+    "timestamp": "2026-03-02 03:13:01",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"stopped\", \"gmail\": \"stopped\", \"ralph\": \"online\", \"whatsapp\": \"stopped\", \"linkedin\": \"stopped\"}"
+  },
+  {
+    "timestamp": "2026-03-02 03:18:18",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"stopped\", \"gmail\": \"stopped\", \"ralph\": \"online\", \"whatsapp\": \"stopped\", \"linkedin\": \"stopped\"}"
+  },
+  {
+    "timestamp": "2026-03-02 03:23:25",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"stopped\", \"gmail\": \"stopped\", \"ralph\": \"online\", \"whatsapp\": \"stopped\", \"linkedin\": \"stopped\"}"
+  },
+  {
+    "timestamp": "2026-03-02 03:28:28",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"stopped\", \"gmail\": \"stopped\", \"ralph\": \"online\", \"whatsapp\": \"stopped\", \"linkedin\": \"stopped\"}"
+  },
+  {
+    "timestamp": "2026-03-02 03:33:29",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"stopped\", \"gmail\": \"stopped\", \"ralph\": \"online\", \"whatsapp\": \"stopped\", \"linkedin\": \"stopped\"}"
+  },
+  {
+    "timestamp": "2026-03-02 03:38:30",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"stopped\", \"gmail\": \"stopped\", \"ralph\": \"online\", \"whatsapp\": \"stopped\", \"linkedin\": \"stopped\"}"
+  },
+  {
+    "timestamp": "2026-03-02 03:43:30",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"stopped\", \"gmail\": \"stopped\", \"ralph\": \"online\", \"whatsapp\": \"stopped\", \"linkedin\": \"stopped\"}"
+  },
+  {
+    "timestamp": "2026-03-02 03:48:31",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"stopped\", \"gmail\": \"stopped\", \"ralph\": \"online\", \"whatsapp\": \"stopped\", \"linkedin\": \"stopped\"}"
+  },
+  {
+    "timestamp": "2026-03-02 03:53:31",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"stopped\", \"gmail\": \"stopped\", \"ralph\": \"online\", \"whatsapp\": \"stopped\", \"linkedin\": \"stopped\"}"
+  },
+  {
+    "timestamp": "2026-03-02 03:58:32",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"stopped\", \"gmail\": \"stopped\", \"ralph\": \"online\", \"whatsapp\": \"stopped\", \"linkedin\": \"stopped\"}"
+  },
+  {
+    "timestamp": "2026-03-02 04:03:32",
+    "actor": "watchdog",
+    "action": "health_check",
+    "detail": "{\"file-watcher\": \"stopped\", \"gmail\": \"stopped\", \"ralph\": \"online\", \"whatsapp\": \"stopped\", \"linkedin\": \"stopped\"}"
+  }
+]

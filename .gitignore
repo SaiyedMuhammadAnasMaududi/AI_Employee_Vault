@@ -1,0 +1,40 @@
+# Environment and secrets
+.env
+*.pem
+*.key
+*_cookies.json
+*_session/
+
+# Logs
+*.log
+
+# Cache and temp files
+__pycache__/
+*.pyc
+*.pyo
+node_modules/
+.vscode/
+.claude/
+.obsidian/
+
+# State files
+gmail_last_uid.txt
+gmail_replied_ids.txt
+linkedin_last_post_date.txt
+linkedin_session/
+whatsapp_session/
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db

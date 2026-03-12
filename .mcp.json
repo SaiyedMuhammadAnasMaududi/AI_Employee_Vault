@@ -1,0 +1,25 @@
+{
+  "mcpServers": {
+    "email": {
+      "command": "python3",
+      "args": ["/mnt/c/Users/123/First_Ai_Employee/AI_Employee_Vault/email_mcp.py"],
+      "env": {
+        "DRY_RUN": "false"
+      }
+    },
+    "odoo": {
+      "command": "python3",
+      "args": ["/mnt/c/Users/123/First_Ai_Employee/AI_Employee_Vault/odoo_mcp.py"],
+      "env": {
+        "ODOO_DRY_RUN": "false"
+      }
+    },
+    "meta_social": {
+      "command": "python3",
+      "args": ["/mnt/c/Users/123/First_Ai_Employee/AI_Employee_Vault/meta_social_mcp.py"],
+      "env": {
+        "META_DRY_RUN": "true"
+      }
+    }
+  }
+}
